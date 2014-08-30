@@ -1,0 +1,18 @@
+src_dir = 'E:\Games\PokemanHangman\game_images\pokemon';
+dest_dir = 'E:\Games\PokemanHangman\game_images\hidden_pokemon';
+for t = 1:649
+    tmp = strcat(src_dir,'\',t,'.png');
+    [base_img,img_map] = imread();
+    gray_img = ind2gray(base_img,img_map);
+    [r,c] = size(gray_img);
+    for i = 1:r
+        for j = 1:c
+            if gray_img(i,j) < 15
+                gray_img(i,j) = 150;
+            else
+                gray_img(i,j) = 75;
+            end
+        end
+    end
+    imwite(gray_img,dest_dir+'\'+t+'.png');
+end
