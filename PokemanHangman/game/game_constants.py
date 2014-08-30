@@ -39,7 +39,7 @@ class GameColors:
 class GameManager:
 	def __init__(self):
 		pygame.init()
-		canvas = pygame.display.set_mode((1366,768),pygame.FULLSCREEN)
+		canvas = pygame.display.set_mode((1024,768),pygame.FULLSCREEN)
 		pygame.display.set_caption("Pokemon Hangman")
 		self.modes = ('TRAINER', 'CHALLENGER', 'MASTER')		
 		self.game_constants = None	
@@ -159,8 +159,7 @@ class GameManager:
 			else:				
 				canvas.blit(self.img_file,(400,350))	
 
-			canvas.blit(self.hangman,(50,250))
-			#self.display_picture(canvas)			
+			canvas.blit(self.hangman,(50,250))			
 
 			for event in pygame.event.get():
 				if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
@@ -175,7 +174,7 @@ class GameManager:
 
 			self.display_word(canvas,str(self.score),(900,700),'Arial',self.game_colors.GREEN,32)			
 			if self.done:
-				self.display_word(canvas, 'Press space to continue',(350,550),'TempusSansITC',self.game_colors.ORANGE,24)						
+				self.display_word(canvas, 'Press space to continue', (350,550),'TempusSansITC',self.game_colors.ORANGE,24)						
 
 			pygame.display.update()
 
