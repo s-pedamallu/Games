@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"hi",
+				"hidden_img"
+			],
+			[
 				"get",
 				"getWeight"
 			],
@@ -200,51 +204,30 @@
 	"buffers":
 	[
 		{
-			"file": "game_constants.py",
+			"contents": "123 Merrimac St., Lower\nBuffalo, NY - 14214\n\nSeptember 30th, 2014\n\nErica H.,\nCampus Recruiter,\nBain & Company Inc.,\nNew York, NY\n\nDear Erica,\nResearching the career opportunities at Bain & Company Careers website, I have come across Associate Consultant position which has keenly interested me.\n\nLet me take this opportunity to brief how my profile aligns with the desired qualifications:\n* Proficient in Java with many cool projects and in the test-driven development using Junit in past work-experiences\n* Worked on framework for concurrent execution of jobs on Amazon AWS using Beanstalkd message queue during internship\n* Excellent knowledge of Hadoop, data structures and algorithms with prior experience through projects\n* A GPA of 3.76/4.0 as a testament to the diligence and discipline towards accomplishing the assigned tasks\n\nPersonally I like to build applications that challenge my skills and at the same time bring a positive change in human life. I have previously worked on Robotics, distributed applications on android, hadoop etc. With an opportunity at Redfin, I believe I can continue this passion and take my skills forward. I appreciate the opportunity to apply for a company that is engaged in providing best and reliable management and consulting services. Thank you for your time in reviewing my resume. If I can provide you with any additional information, please let me know. You can reach me at (610)-504-1725.\n\n\nI'll be looking forward to hearing from you.\n\nSincerely,\nShashank Pedamallu\nEmail: shashank.pedamallu@gmail.com\nCell: (610)-504-1725\n",
+			"file": "/E/UB/Career Plan/CoverLetter/Full-time/Bain.txt",
+			"file_size": 1573,
+			"file_write_time": 130566148763200693,
 			"settings":
 			{
-				"buffer_size": 8533,
-				"line_ending": "Windows"
+				"buffer_size": 1573,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/data/pa3_p1.dat",
+			"file": "/E/UB/Career Plan/CoverLetter/Full-time/Zappos.txt",
 			"settings":
 			{
-				"buffer_size": 986,
-				"line_ending": "Windows"
+				"buffer_size": 1489,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_p1.dat",
+			"file": "/E/UB/Career Plan/CoverLetter/Full-time/DataStax.txt",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_p2.dat",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_sample1.dat",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_sample2.dat",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
+				"buffer_size": 1698,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -276,17 +259,25 @@
 	},
 	"file_history":
 	[
+		"/E/UB/Career Plan/CoverLetter/Full-time/Zappos.txt",
+		"/E/Games/PokemanHangman/game/game_constants.py",
+		"/E/Games/lib/py2exe/hello.py",
+		"/E/Games/PokemanHangman/exeFile/setup.py",
+		"/E/Games/PokemanHangman/game/game.py",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_sample2.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_sample1.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_p2.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_p1.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/data/pa3_p1.dat",
 		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/sampledata2.dat",
 		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/sampledat1.dat",
 		"/E/Coursera/Algorithms2/PA2/data/problem1",
 		"/E/Coursera/Algorithms2/PA1/programs/MaxHeap.java",
 		"/E/Coursera/Algorithms2/PA1/programs/Score.java",
 		"/E/Coursera/Algorithms2/PA1/programs/Prob1.java",
-		"/E/Games/PokemanHangman/game/game.py",
 		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/problem2.dat",
 		"/E/Coursera/Algorithms2/PA2/programs/Prob1.java",
 		"/E/Games/PokemanHangman/data/clean_data.dat",
-		"/E/Games/PokemanHangman/game/game_constants.py",
 		"/E/Games/PokemanHangman/practice.py",
 		"/E/Games/PokemanHangman/data/raw_data.dat",
 		"/E/Games/PokemanHangman/data/pokemon_names.dat",
@@ -395,15 +386,7 @@
 		"/E/UB/Subjects/DIC/Practice/testing/test2.csv",
 		"/C/Users/Shashank/Desktop/fizzbuzz.java",
 		"/E/UB/Subjects/DB/Project/Checkpoint1_17Feb/Checkpoint 1/grading_script_queries/tpch6.sql",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/testqueries/tpchtry.sql",
-		"/E/UB/Subjects/DB/Project/Checkpoint1_17Feb/Checkpoint 1/grading_script_queries/nba01.sql",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/testqueries/tpch5.sql",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/testqueries/tpch3.sql",
-		"/C/Users/Shashank/Desktop/dhsaj.R",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/nba12.sql",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/testqueries/tpch6.sql",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/MyProgress/nba11.expected.dat",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/MyProgress/tables/PLAYERS.dat"
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/testqueries/tpchtry.sql"
 	],
 	"find":
 	{
@@ -474,42 +457,15 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "game_constants.py",
+					"file": "/E/UB/Career Plan/CoverLetter/Full-time/Bain.txt",
 					"settings":
 					{
-						"buffer_size": 8533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5537,
-								5537
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2080.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/data/pa3_p1.dat",
-					"settings":
-					{
-						"buffer_size": 986,
+						"buffer_size": 1573,
 						"regions":
 						{
 						},
@@ -517,7 +473,33 @@
 						[
 							[
 								0,
-								0
+								1573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/UB/Career Plan/CoverLetter/Full-time/Zappos.txt",
+					"settings":
+					{
+						"buffer_size": 1489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								1355
 							]
 						],
 						"settings":
@@ -532,96 +514,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_p1.dat",
+					"file": "/E/UB/Career Plan/CoverLetter/Full-time/DataStax.txt",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_p2.dat",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_sample1.dat",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_sample2.dat",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								509,
+								392
 							]
 						],
 						"settings":

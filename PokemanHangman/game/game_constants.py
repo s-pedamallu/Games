@@ -27,8 +27,7 @@ class GameColors:
 		self.VIOLET = pygame.Color(102,0,102)
 		self.BLUE = pygame.Color(51,0,204)
 		self.YELLOW = pygame.Color(255,255,0)
-		self.GREEN = pygame.Color(0,102,0)
-		#self.BACKGROUND = pygame.Color(200,225,200)
+		self.GREEN = pygame.Color(0,102,0)		
 		self.palette = {1:self.RED,2:self.BLACK,3:self.WHITE,4:self.ORANGE,
 						5:self.PINK,6:self.VIOLET,7:self.BLUE,8:self.YELLOW,
 						9:self.GREEN}
@@ -49,10 +48,10 @@ class GameManager:
 		clock = pygame.time.Clock()
 
 		# Setting background properties
-		self.bg = pygame.image.load("../game_images/background.png")
+		self.bg = pygame.image.load("../game_images/background3.jpg")
 		self.bg_size = self.bg.get_size()
 		self.bg_rect = self.bg.get_rect()
-		self.bg.set_alpha(50)
+		self.bg.set_alpha(100)
 		self.screen = pygame.display.set_mode(self.bg_size,pygame.FULLSCREEN)
 
 		self.welcome_sound = pygame.mixer.Sound("../audio_clips/poke-who.wav")
@@ -144,6 +143,7 @@ class GameManager:
 		details = line.split()
 		self.img_file = pygame.image.load(os.path.join('../game_images/pokemon',str(int(details[0]))+'.png'))
 		self.hidden_img = pygame.image.load(os.path.join('../game_images/hidden_pokemon',str(int(details[0]))+'.png'))
+		self.hidden_img.set_colorkey((150,150,150))
 		self.pokemon = details[1]
 		data_file.close()
 		self.current_word = ""
@@ -159,6 +159,7 @@ class GameManager:
 		while self.running:
 			#canvas.fill(self.game_colors.BACKGROUND)			
 			self.display_header()
+			self.hangman.set_colorkey((255,255,255))
 			self.display_word(self.current_word,(400,450),'Chiller',self.pokemon_color,60)
 			self.display_word('Hints Available:',(50,700),'Arial',self.game_colors.BLACK,32)
 			self.display_word(str(self.hints),(250,700),'Arial',self.game_colors.ORANGE,32)
@@ -222,9 +223,9 @@ class GameManager:
 		restart = False
 		clock = pygame.time.Clock()
 		self.refresh_background()
-		while self.running:
-			#canvas.fill(self.game_colors.BACKGROUND)
+		while self.running:			
 			self.display_header()
+			self.hangman.set_colorkey((255,255,255))
 			if enter_count == 0:
 				self.screen.blit(self.img_file,(400,350))
 				self.display_word(self.pokemon.upper(),(400,450),'Chiller',self.pokemon_color,60)
