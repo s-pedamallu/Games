@@ -1,0 +1,500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hi",
+				"hidden_img"
+			],
+			[
+				"get",
+				"getWeight"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"File",
+				"FileReader"
+			],
+			[
+				"BL",
+				"BLUE"
+			],
+			[
+				"g",
+				"game_colors"
+			],
+			[
+				"o",
+				"output_file"
+			],
+			[
+				"ex",
+				"expose"
+			],
+			[
+				"po",
+				"pos"
+			],
+			[
+				"sta",
+				"start_game"
+			],
+			[
+				"lo",
+				"lower"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
+				"game_",
+				"game_colors"
+			],
+			[
+				"display",
+				"display_word"
+			],
+			[
+				"game",
+				"game_colors"
+			],
+			[
+				"show_game",
+				"show_game_over"
+			],
+			[
+				"fa",
+				"flag"
+			],
+			[
+				"poke",
+				"pokemon"
+			],
+			[
+				"heading",
+				"heading_colors"
+			],
+			[
+				"ga",
+				"game_colors"
+			],
+			[
+				"ge",
+				"get_hints"
+			],
+			[
+				"dis",
+				"display_word"
+			],
+			[
+				"r",
+				"running"
+			],
+			[
+				"data",
+				"data_file"
+			],
+			[
+				"ran",
+				"randint"
+			],
+			[
+				"B",
+				"BACKGROUND"
+			],
+			[
+				"disp",
+				"display_header"
+			],
+			[
+				"he",
+				"heading"
+			],
+			[
+				"fo",
+				"font"
+			],
+			[
+				"hea",
+				"heading_colors"
+			],
+			[
+				"Gam",
+				"GameConstants"
+			],
+			[
+				"Ga",
+				"GameConstants"
+			],
+			[
+				"mo",
+				"modes"
+			],
+			[
+				"font",
+				"font_obj"
+			],
+			[
+				"pyg",
+				"pygame"
+			],
+			[
+				"Game",
+				"GameColors"
+			],
+			[
+				"whi",
+				"WHITE"
+			],
+			[
+				"key",
+				"key_pressed"
+			],
+			[
+				"wo",
+				"word_show"
+			],
+			[
+				"name",
+				"name_file"
+			],
+			[
+				"gg",
+				"ggplot2"
+			],
+			[
+				"tot",
+				"total"
+			],
+			[
+				"total",
+				"totalsum"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"ma",
+				"males"
+			],
+			[
+				"fe",
+				"females"
+			],
+			[
+				"mean",
+				"meanclicks"
+			],
+			[
+				"tup",
+				"sortedTup"
+			],
+			[
+				"sor",
+				"sortedTup"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Games/PokemonHangman/NewCode/levelshandler.py",
+		"/E/Games/PokemanHangman/NewCode/levelshandler.py",
+		"/E/UB/Career Plan/CoverLetter/Full-time/Zappos.txt",
+		"/E/UB/Career Plan/CoverLetter/Full-time/DataStax.txt",
+		"/E/UB/Career Plan/CoverLetter/Full-time/Bain.txt",
+		"/E/Games/PokemanHangman/game/game_constants.py",
+		"/E/Games/lib/py2exe/hello.py",
+		"/E/Games/PokemanHangman/exeFile/setup.py",
+		"/E/Games/PokemanHangman/game/game.py",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_sample2.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_sample1.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_p2.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/pa3_p1.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/data/pa3_p1.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/sampledata2.dat",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/sampledat1.dat",
+		"/E/Coursera/Algorithms2/PA2/data/problem1",
+		"/E/Coursera/Algorithms2/PA1/programs/MaxHeap.java",
+		"/E/Coursera/Algorithms2/PA1/programs/Score.java",
+		"/E/Coursera/Algorithms2/PA1/programs/Prob1.java",
+		"/E/Coursera/Algorithms2/PA1/EclipseWorkspace/CourseraAlgorithms2/problem2.dat",
+		"/E/Coursera/Algorithms2/PA2/programs/Prob1.java",
+		"/E/Games/PokemanHangman/data/clean_data.dat",
+		"/E/Games/PokemanHangman/practice.py",
+		"/E/Games/PokemanHangman/data/raw_data.dat",
+		"/E/Games/PokemanHangman/data/pokemon_names.dat",
+		"/E/Coursera/PythonProgramming/PA/Asteroids.py",
+		"/E/Coursera/PythonProgramming/PA/Blackjack.py",
+		"/E/Games/PyGame_Tutorials/rspls.py",
+		"/E/Shashank/TopCoder/Python/srm626_div2500.py",
+		"/E/Games/PokemanHangman/data/names.dat",
+		"/E/Games/PokemanHangman/data/pokemon_names",
+		"/E/ProgramFiles/apache-tomcat-7.0.54/RUNNING.txt",
+		"/E/ProgramFiles/apache-tomcat-7.0.54/conf/server.xml",
+		"/E/SideProjects/d3/d3.js",
+		"/E/SideProjects/index.html",
+		"/E/ProgramFiles/apache-tomcat-7.0.54/conf/web.xml",
+		"/E/Coursera/POSA/PeerAssessments/Week3/peer3/d0c1fc70eb4d11e3883a6f5ce2b4a062.java",
+		"/E/Softwares/settings.dat",
+		"/E/UB/Subjects/DIC/Projects/Project-2/R_Workspace/Prj2/main_visualization_hashTags.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/SubmissionReady/NYT/src/NYT_analysis.R",
+		"/E/UB/Subjects/DIC/Projects/Project-2/R_Workspace/Q2/main_visualization_pairs.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/SubmissionReady/CustomData/src/Patents_analysis.R",
+		"/E/UB/Subjects/DIC/Projects/Project-2/SubmissionReady/Question3/Code/main_Q3.R",
+		"/E/Coursera/PythonProgramming/PA/Pokemon_MatchIt.py",
+		"/E/Coursera/POSA/PeerAssessments/Week3/peer1/5f397d20ef1d11e3b138c791c6050cd3.java",
+		"/E/Coursera/POSA/POSA-14-master/assignments/week-4-assignment-3/src/edu/vuum/mocca/PingPongRight.java",
+		"/E/Coursera/POSA/PeerAssessments/Week3/peer1/5f85c860ef1d11e3b138c791c6050cd3.java",
+		"/E/UB/Subjects/DIC/Projects/Project-2/Results/KMeans/output_copy.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/SubmissionReady/Question3/Result/output_copy.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/Results/KMeans/output.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/Results/Q1/Tweets/sortedFilteredWords.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/Resources/stop_words.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/Results/Graph/GraphOutput.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/Results/Pairs/sorted_combo10MB.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/Results/Q1/Users/sorted_users.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/Results/Q1/HashTags/sorted_hash_tags.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-2/SubmissionReady/Question1/ResultData/sorted_tweetWords.txt",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/EDA/EDA_complete.R",
+		"/E/Coursera/PythonProgramming/PA/pong.py",
+		"/E/Coursera/PythonProgramming/PA/guess_number.py",
+		"/E/Coursera/PythonProgramming/PA/stop_watch.py",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/EDA/eda_full.R",
+		"/C/Users/Shashank/Downloads/A-small-attempt3.in",
+		"/C/Users/Shashank/Downloads/ANNUAL_sample_csv (1).csv",
+		"/C/Users/Shashank/Downloads/Complete_TAVG_EqualArea.nc",
+		"/C/Users/Shashank/Downloads/sub-3.out",
+		"/C/Users/Shashank/Downloads/A-small-attempt0.in",
+		"/E/Coursera/MachineLearning/ProgrammingAssignments/PA3/ex3.pdf",
+		"/C/Users/Shashank/Downloads/A-small-attempt2.in",
+		"/C/Users/Shashank/Desktop/Magician.out",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/ChkPt3Queries/tpch_schemas.sql",
+		"/E/UB/Career Plan/Misc/FireEyeAnswers.txt",
+		"/E/UB/Career Plan/CoverLetter/AOLIntern.docx",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch_schemas.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch1.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch2.sql",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/chkpt2Queries/tpch12.sql",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/chkpt2Queries/tpch3.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch6.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch7.sql",
+		"/E/Coursera/MachineLearning/ProgrammingAssignments/PA2/mlclass-ex2-005/mlclass-ex2/ex2data1.txt",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch16.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch3.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch5.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch12.sql",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/practiceQueries/PLAYERS.dat",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/chkpt2Queries/tpch1.sql",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/chkpt2Queries/tpch7.sql",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/chkpt2Queries/tpch_schemas.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch10.sql",
+		"/C/Users/Shashank/Desktop/mysqlAns.csv",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/smalltables/nation.dat",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/MyProgress/test.sql",
+		"/E/UB/Subjects/DIC/Projects/Project-1/SubmissionReady/RealDirect/src/Example2page48.R",
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/pi2.sql",
+		"/E/UB/Subjects/FPL/MiscellaneousMaterials/SMLPractice/classDemo.sml",
+		"/E/UB/Subjects/FPL/MiscellaneousMaterials/SMLPractice/practice2.sml",
+		"/C/Users/Shashank/Desktop/r3.R",
+		"/E/UB/Subjects/DIC/Tutorial/airport.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/Patents/godown.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/SubmissionReady/NYT/NYT_analysis.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/EDA/allDays.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/SubmissionReady/NYT/NYT_analysis.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/EDA/EDA_attempt1.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Datahunt/statesLocations.csv",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/EDA/misc-1.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/EDA/EDA_alldata.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/EDA/EDA_acrossDays.R",
+		"/C/Users/Shashank/Downloads/airports.dat",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Datahunt/patents.csv",
+		"/C/Users/Shashank/Downloads/State_of_Oklahoma_Payroll_-_Q4_2010.csv",
+		"/E/UB/Subjects/FPL/Assignments/3- Coding Assignment1/SubmissionReady/src/version2/CDLList.java",
+		"/E/UB/Career Plan/Coding/BinarySearchTree.java",
+		"/E/UB/Subjects/DS/Assignments/ProgrammingAssignments/PA2/UbuntuWorkspace/GroupMessenger/src/edu/buffalo/cse/cse486586/groupmessenger/GroupMessengerActivity.java",
+		"/C/Users/Shashank/Downloads/airport.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/RealDirect/data/rollingsales_brooklyn.xls",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/RealDirect/attempt1.R",
+		"/E/UB/Subjects/DIC/Projects/Project-1/Workspace/EDA/head(dataset)",
+		"/C/Users/Shashank/Desktop/EDA_Attempt1.R",
+		"/C/Users/Shashank/Desktop/ankur_EDA.R",
+		"/E/UB/Subjects/DIC/Practice/Data/DDS_Pg37_EDAExercise/dds_datasets/NYT/nyt2.csv",
+		"/E/UB/Subjects/DIC/Practice/Data/DDS_Pg37_EDAExercise/dds_datasets/NYT/nyt1.csv",
+		"/E/UB/Subjects/DB/Project/Checkpoint1_17Feb/Checkpoint 1/grading_script_queries/tpch1.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint1_17Feb/Checkpoint 1/smalltables/lineitem.dat",
+		"/E/UB/Subjects/DB/Project/Checkpoint1_17Feb/Checkpoint 1/grading_script_queries/tpch3.sql",
+		"/E/UB/Subjects/DB/Project/Checkpoint1_17Feb/Checkpoint 1/grading_script_queries/tpch5.sql",
+		"/E/UB/Subjects/DIC/Practice/testing/test1.csv"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getSize",
+			"input_file = open('../data/raw_data.dat','r')\noutput_file = open('../data/clean_data.dat','w')\nwhile True:\n	liner = input_file.readline()\n	if liner == None:\n		break\n	details = liner.split()\n	number = int(details[0])\n	pokemon = re.sub(\"[^a-zA-Z']\", \"\",  details[1])\n	linew = str(number)+' '+pokemon+'\\n'\n	output_file.write(linew)\ninput_file.close()\noutput_file.close()",
+			"pygame.K_ESCAPE",
+			"MatisseITC",
+			"Jokerman",
+			" ",
+			",",
+			"20",
+			";",
+			"agecat",
+			"data1",
+			"BinaryTree",
+			"testdata",
+			"data1",
+			"agecat",
+			"data1",
+			"NA",
+			"Rafael",
+			"null",
+			"zoet",
+			"string",
+			"Db",
+			"Haar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ComicSansMS",
+			"\",\"",
+			"|",
+			"age.groups",
+			"testdata",
+			"Node",
+			"current.data",
+			"dataset",
+			"age.groups",
+			"dataset",
+			"varchar(30)",
+			"Db2",
+			"Db"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 92.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
