@@ -56,7 +56,7 @@ class LevelManager:
 		graphics.display_text(canvas,prop.level,prop.loc,prop.size,prop.color)
 		graphics.display_text(canvas,prop.level_name, prop.name_loc, prop.size, prop.color)
 		pygame.display.update()
-		pygame.time.delay(1500)	
+		pygame.time.delay(1000)	
 
 	def get_data_from_file(self, l):		
 		with open('./data/'+self.levels[l]+'.dat') as poke_file:

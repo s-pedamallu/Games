@@ -11,10 +11,12 @@ class BackgroundProperties:
 
 class PokemonImageProperties:
 	def __init__(self, color, hidden):
-		self.exposed_img = color
-		self.hidden_img = hidden
+		original_size = color.get_size()
+		scale = 2
+		self.exposed_img = pygame.transform.scale(color,(original_size[0]*scale,original_size[1]*3))
+		self.hidden_img = pygame.transform.scale(hidden,(original_size[0]*scale,original_size[1]*3))
 		self.hidden_img.set_colorkey((150,150,150))
-		self.loc = (40,30)
+		self.loc = (30,30)
 		self.exposed = False
 
 class NameDisplayProperties:
@@ -23,7 +25,7 @@ class NameDisplayProperties:
 		self.display_word = ""
 		for i in range(len(name)):
 			self.display_word+='?'
-		self.loc = (40,45)
+		self.loc = (45,45)
 		self.color = game_colors['blue']
 		self.size = 60
 
@@ -98,9 +100,6 @@ class GameScreen:
 			for event in pygame.event.get():				
 				if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
 					return 0
-#				elif self.done and event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
-#					self.running = False
-#					self.start_game()
 				elif (not is_done) and (event.type == pygame.KEYDOWN):					
 					is_done = self.evaluate_key_press(event.key)
 			clock.tick(100)
