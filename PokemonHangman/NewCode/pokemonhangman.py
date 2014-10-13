@@ -1,6 +1,4 @@
 import welcome
-import game
-import finish
 import pygame
 import levelshandler
 

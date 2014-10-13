@@ -20,7 +20,7 @@ class GraphicsManager:
 		return (x,y)
 
 	def is_clicked_inside(self, abs_clicked_at, rel_top_left, rel_bottom_right):
-		rel_clicked_at = self.get_relative_location(abs_clicked_at)		
+		rel_clicked_at = self.get_relative_location(abs_clicked_at)	
 		return ((rel_clicked_at[0] > rel_top_left[0] and rel_clicked_at[0] < rel_bottom_right[0])
 			and (rel_clicked_at[1] > rel_top_left[1] and rel_clicked_at[1] < rel_bottom_right[1]))
 

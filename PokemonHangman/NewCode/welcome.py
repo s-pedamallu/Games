@@ -59,7 +59,7 @@ class WelcomeScreen:
 				if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
 						is_running = False
 						sys.exit(0)
-				elif event.type == pygame.MOUSEBUTTONDOWN:					
+				elif event.type == pygame.MOUSEBUTTONDOWN:
 					modes = ModeProperties()
 					for i in range(0,5,2):
 						if self.graphics.is_clicked_inside(event.pos, modes.boundaries[i],modes.boundaries[i+1]):
