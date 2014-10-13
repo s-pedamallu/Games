@@ -23,3 +23,7 @@ class GraphicsManager:
 		rel_clicked_at = self.get_relative_location(abs_clicked_at)		
 		return ((rel_clicked_at[0] > rel_top_left[0] and rel_clicked_at[0] < rel_bottom_right[0])
 			and (rel_clicked_at[1] > rel_top_left[1] and rel_clicked_at[1] < rel_bottom_right[1]))
+
+	def display_image(self, canvas, img, relative_location):
+		abs_location = self.get_absolute_location(relative_location)
+		canvas.blit(img,abs_location)

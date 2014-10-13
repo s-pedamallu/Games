@@ -35,10 +35,10 @@ class WelcomeScreen:
 		pygame.display.update()
 
 	def show_background(self):
-		bg = BackgroundProperties()		
+		bg = BackgroundProperties()
 		#bg.img.set_alpha(bg.transperancy)
 		self.canvas.fill((255,255,255))
-		self.canvas.blit(bg.img,bg.img.get_rect())		
+		self.canvas.blit(bg.img,bg.img.get_rect())
 
 	def show_modes(self):
 		modes = ModeProperties()

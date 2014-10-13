@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"get_level_image"
+			],
+			[
+				"level",
+				"level_properties"
+			],
+			[
+				"le",
+				"levels"
+			],
+			[
+				"Level",
+				"LevelProperties"
+			],
+			[
+				"na",
+				"name_loc"
+			],
+			[
+				"di",
+				"display_text"
+			],
+			[
+				"Leve",
+				"LevelDisplayPropertties"
+			],
+			[
 				"a",
 				"absolute_location"
 			],
@@ -30,10 +58,6 @@
 			[
 				"hi",
 				"hidden_img"
-			],
-			[
-				"get",
-				"getWeight"
 			],
 			[
 				"va",
@@ -232,29 +256,50 @@
 			}
 		},
 		{
-			"file": "NewCode/gamehandler.py",
-			"settings":
-			{
-				"buffer_size": 480,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "NewCode/levelshandler.py",
 			"settings":
 			{
-				"buffer_size": 21,
+				"buffer_size": 1770,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "import welcome\nimport game\nimport finish\nimport pygame\n\nclass GameDriver:\n	def run(self):\n		pygame.init()\n		home = welcome.WelcomeScreen()\n		mode = home.get_mode()\n		game_play = game.GameManager(mode)		\n		game_play.set_up_game()\n\n\nmanager = GameDriver()\nmanager.run()",
-			"file": "NewCode/pokemonhangman.py",
-			"file_size": 306,
-			"file_write_time": 130572195171993219,
+			"file": "OldCode/game/game_constants.py",
 			"settings":
 			{
-				"buffer_size": 267,
+				"buffer_size": 9451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "NewCode/pokemonhangman.py",
+			"settings":
+			{
+				"buffer_size": 299,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "NewCode/commonvariables.py",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "NewCode/welcome.py",
+			"settings":
+			{
+				"buffer_size": 2105,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "NewCode/gamegraphics.py",
+			"settings":
+			{
+				"buffer_size": 1015,
 				"line_ending": "Windows"
 			}
 		}
@@ -287,6 +332,7 @@
 	},
 	"file_history":
 	[
+		"/E/Games/PokemonHangman/NewCode/gamehandler.py",
 		"/E/UB/Subjects/PDP/Assignments/PA1/SubmissionReady/Sequential/SLURM_PrimeGen_Sequential.sh",
 		"/E/UB/Subjects/PDP/Assignments/PA1/SubmissionReady/OpenMPI/SLURM_PrimeGen_MPI.sh",
 		"/E/UB/Subjects/PDP/Assignments/PA1/SubmissionReady/SSE/SLURM_PrimeGen_SSE.sh",
@@ -304,7 +350,6 @@
 		"/E/UB/Subjects/PDP/Assignments/PA1/Solutions/SSE/Performace 1.csv",
 		"/E/Games/PokemonHangman/NewCode/welcome.py",
 		"/E/Games/PokemonHangman/OldCode/game/data_cleaner.py",
-		"/E/Games/PokemonHangman/NewCode/gamehandler.py",
 		"/E/Games/PokemonHangman/NewCode/game.py",
 		"/E/Games/PokemonHangman/NewCode/commonvariables.py",
 		"/E/Games/PokemonHangman/NewCode/pokemonhangman.py",
@@ -495,7 +540,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -510,8 +555,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								522,
+								442
 							]
 						],
 						"settings":
@@ -527,18 +572,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "NewCode/gamehandler.py",
+					"file": "NewCode/levelshandler.py",
 					"settings":
 					{
-						"buffer_size": 480,
+						"buffer_size": 1770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								456,
-								456
+								986,
+								986
 							]
 						],
 						"settings":
@@ -553,18 +598,45 @@
 				},
 				{
 					"buffer": 2,
-					"file": "NewCode/levelshandler.py",
+					"file": "OldCode/game/game_constants.py",
 					"settings":
 					{
-						"buffer_size": 21,
+						"buffer_size": 9451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "NewCode/pokemonhangman.py",
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
 							]
 						],
 						"settings":
@@ -578,24 +650,78 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "NewCode/pokemonhangman.py",
+					"buffer": 4,
+					"file": "NewCode/commonvariables.py",
 					"settings":
 					{
-						"buffer_size": 267,
+						"buffer_size": 385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								228,
-								228
+								385,
+								385
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "NewCode/welcome.py",
+					"settings":
+					{
+						"buffer_size": 2105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								995,
+								995
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "NewCode/gamegraphics.py",
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
