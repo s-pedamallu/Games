@@ -66,6 +66,5 @@ class WelcomeScreen:
 							is_running = False
 							ans = i/2
 							break
-			clock.tick(60)
-		print "Selected",ModeProperties().texts[ans]
+			clock.tick(60)		
 		return ans

@@ -45,6 +45,16 @@ class AttemptedLettersProperties:
 		self.label_color = game_colors['pink']
 		self.value_color = game_colors['green']
 
+class ScoreProperties:
+	def __init__(self,score):
+		self.label = "Score:"
+		self.value = str(score)
+		self.label_loc = (2,95)
+		self.label_color = game_colors['black']
+		self.value_loc = (10,95)
+		self.value_color = game_colors['yellow']
+		self.size = 25
+
 class TitleProperties:
 	def __init__(self):
 		self.text = "Who's that Pokemon?"
@@ -59,6 +69,11 @@ class ForwardProperties:
 		# The third word is the Pokemon Name
 		self.name = pokemon_details.split()[2].upper()
 		self.types = pokemon_details.split()[4:]
+
+class ReturnValueProperties:
+	def __init__(self, before_score):
+		self.score = before_score
+		self.pass_status = 0
 
 class HintProperties:
 	def __init__(self, h):
@@ -84,12 +99,15 @@ class GameScreen:
 		self.pokemon_name_properties = NameDisplayProperties(properties.pokemon_details)
 		self.attempted_letter_properties = AttemptedLettersProperties()
 		self.hint_properties = HintProperties(properties.hints)
+		self.return_value = ReturnValueProperties(properties.current_score)
+		self.score_properties = ScoreProperties(properties.current_score)
 		self.canvas = pygame.display.set_mode(SCREEN_SIZE,pygame.FULLSCREEN)
 		self.graphics = gamegraphics.GraphicsManager()
 		forward_properties = ForwardProperties(properties.bg, properties.pokemon_image, properties.pokemon_details)
 		self.finish_screen = finish.FinishScreen(forward_properties)
 		self.lives = 5
-		self.hangman_image_properties = HangmanImageProperties(self.lives)
+		self.score = 0
+		self.hangman_image_properties = HangmanImageProperties(self.lives)		
 
 	def show_game_screen(self):
 		self.show_background()
@@ -98,8 +116,9 @@ class GameScreen:
 		self.show_pokemon_name()
 		self.show_letters_tried()
 		self.show_hints()
-		self.show_hangman_image()	
-		#show_score()		
+		self.show_hangman_image()
+		self.show_score()
+		
 	
 	def show_background(self):
 		self.canvas.fill((255,255,255))
@@ -137,26 +156,31 @@ class GameScreen:
 		self.graphics.display_text(self.canvas, str(self.hint_properties.value), self.hint_properties.value_loc,
 			self.hint_properties.label_size, self.hint_properties.value_color)
 
+	def show_score(self):
+		self.graphics.display_text(self.canvas, self.score_properties.label, self.score_properties.label_loc,
+			self.score_properties.size, self.score_properties.label_color)
+		self.graphics.display_text(self.canvas, self.score_properties.value, self.score_properties.value_loc,
+			self.score_properties.size, self.score_properties.value_color)
+
 	def play_on_game_screen(self):		
-		clock = pygame.time.Clock()
-		ans = 0
+		clock = pygame.time.Clock()		
 		is_done = False
 		while not is_done and self.lives>=0:
 			self.show_game_screen()
 			pygame.display.update()
 			for event in pygame.event.get():				
 				if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
-					ans = 0
+					self.return_value.pass_status = 0
 					is_done = True
 				elif event.type == pygame.KEYDOWN:					
-					ans = self.evaluate_key_press(event.key)
-					if ans == 2:
+					self.return_value.pass_status = self.evaluate_key_press(event.key)
+					if self.return_value.pass_status == 2:
 						is_done = True
 				elif (event.type == pygame.MOUSEBUTTONDOWN and not self.hint_properties.is_used):
-					ans = self.evaluate_mouse_click(event.pos)					
+					self.return_value.pass_status = self.evaluate_mouse_click(event.pos)					
 			clock.tick(100)
-		self.finish_screen.reveal(ans)
-		return ans
+		self.return_value.pass_status = self.finish_screen.reveal(self.return_value.pass_status)
+		return self.return_value
 
 	def evaluate_mouse_click(self, pos):
 		if (self.graphics.is_clicked_inside(pos, self.hint_properties.text_boundary[0],
@@ -164,11 +188,12 @@ class GameScreen:
 			self.pokemon_image_properties.exposed = True
 			self.hint_properties.is_used = True
 			self.hint_properties.value -= 1
+			self.score-=10
 			return 1
 
 	def evaluate_key_press(self, key):
-		# ignore if the key pressed is NOT a valid alphabet between A-Z or '
-		if not ((key>96 and key<123) or key==39):
+		# ignore if the key pressed is NOT a valid alphabet between A-Z or ' or .
+		if not ((key>96 and key<123) or key==39 or key==46):
 			return 0
 
 		# ignore if the key was already used
@@ -190,9 +215,12 @@ class GameScreen:
 					self.pokemon_name_properties.actual_word[i]+self.pokemon_name_properties.display_word[(i+1):])
 				self.pokemon_name_properties.display_word = self.pokemon_name_properties.display_word.upper()
 				if self.pokemon_name_properties.actual_word == self.pokemon_name_properties.display_word:
+					self.score+=20
+					self.return_value.score+=self.score
 					return 2
 		if not has_changed:
 			self.lives-=1
+			self.score-=1
 			if self.lives > 0:
 				self.hangman_image_properties = HangmanImageProperties(self.lives)
 		return 0

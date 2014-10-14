@@ -59,13 +59,15 @@ class FinishScreen:
 		self.show_pokemon_details()
 		self.show_footer()
 		pygame.display.update()
-		while True:
+		is_running = True		
+		while is_running:
 			for event in pygame.event.get():
 				if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
-						is_running = False
-						sys.exit(0)
+					is_running = False
+					status = 0
 				elif event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
-					return
+					is_running = False
+		return status
 
 
 	def show_background(self):
