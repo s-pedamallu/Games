@@ -17,11 +17,11 @@ class AcknowledgementProperties:
 	def __init__(self):
 		self.label = "Acknowledgements"
 		self.values = ["Inspired by the course: 'An Introduction to Interactive Programming in Python'",
-						"By","Scott Rixner","Joe Warren","John Greiner","from Rice University"]
+						"on Coursera","By","Scott Rixner","Joe Warren","John Greiner","from Rice University"]
 		self.label_loc = (43,40)
 		self.label_size = 18
 		self.label_color = game_colors['white']
-		self.value_loc = [(15,44),(35,47),(40,47),(40,50),(40,53),(35,56)]
+		self.value_loc = [(15,44),(35,47),(35,50),(40,50),(40,53),(40,56),(35,59)]
 		self.value_size = 18
 		self.value_color = game_colors['yellow']
 
