@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"value_",
+				"value_loc"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"va",
+				"value_loc"
+			],
+			[
+				"la",
+				"label_color"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"labe",
+				"label"
+			],
+			[
+				"Ac",
+				"AcknowledgementProperties"
+			],
+			[
+				"value",
+				"value_size"
+			],
+			[
+				"lab",
+				"label_size"
+			],
+			[
+				"valu",
+				"value"
+			],
+			[
+				"p",
+				"publish_developer_properties"
+			],
+			[
+				"Sco",
+				"ScoreDisplayProperties"
+			],
+			[
+				"pro",
+				"proceed_forward"
+			],
+			[
+				"dis",
+				"display_text"
+			],
+			[
+				"score",
+				"score_properties"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"scor",
+				"score_properties"
+			],
+			[
+				"sco",
+				"score_properties"
+			],
+			[
+				"curr",
+				"current_score"
+			],
+			[
+				"Scor",
+				"ScoreProperties"
+			],
+			[
+				"label",
+				"label_color"
+			],
+			[
+				"re",
+				"return_value"
+			],
+			[
 				"is",
 				"is_done"
 			],
@@ -14,22 +102,6 @@
 			[
 				"ty",
 				"type_color"
-			],
-			[
-				"la",
-				"label_size"
-			],
-			[
-				"lab",
-				"label_loc"
-			],
-			[
-				"pro",
-				"pokemon_properties"
-			],
-			[
-				"labe",
-				"label_color"
 			],
 			[
 				"l",
@@ -86,10 +158,6 @@
 			[
 				"hi",
 				"hints"
-			],
-			[
-				"va",
-				"value_color"
 			],
 			[
 				"v",
@@ -176,10 +244,6 @@
 				"bg_img"
 			],
 			[
-				"curr",
-				"current_pokemon_index"
-			],
-			[
 				"cur",
 				"current_pokemon_name"
 			],
@@ -206,10 +270,6 @@
 			[
 				"Leve",
 				"LevelDisplayPropertties"
-			],
-			[
-				"re",
-				"rel_bottom_right"
 			],
 			[
 				"i",
@@ -274,10 +334,6 @@
 			[
 				"heading",
 				"heading_colors"
-			],
-			[
-				"dis",
-				"display_word"
 			],
 			[
 				"r",
@@ -388,58 +444,10 @@
 	"buffers":
 	[
 		{
-			"file": "OldCode/game/game_constants.py",
-			"settings":
-			{
-				"buffer_size": 9451,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "NewCode/pokemonhangman.py",
 			"settings":
 			{
-				"buffer_size": 273,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "NewCode/commonvariables.py",
-			"settings":
-			{
-				"buffer_size": 493,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "NewCode/gamegraphics.py",
-			"settings":
-			{
-				"buffer_size": 1168,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "NewCode/gamehandler.py",
-			"settings":
-			{
-				"buffer_size": 1694,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "NewCode/game.py",
-			"settings":
-			{
-				"buffer_size": 7716,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "NewCode/finish.py",
-			"settings":
-			{
-				"buffer_size": 3592,
+				"buffer_size": 386,
 				"line_ending": "Windows"
 			}
 		}
@@ -472,15 +480,23 @@
 	},
 	"file_history":
 	[
-		"/E/Games/PokemonHangman/NewCode/levelshandler.py",
-		"/E/Games/PokemonHangman/NewCode/data/Kanto.dat",
+		"/E/Games/PokemonHangman/OldCode/game/game_constants.py",
+		"/E/Games/PokemonHangman/NewCode/pokemonhangman.py",
+		"/E/Games/PokemonHangman/NewCode/acknowledgements.py",
+		"/E/Games/PokemonHangman/NewCode/commonvariables.py",
 		"/E/Games/PokemonHangman/NewCode/welcome.py",
+		"/E/Games/PokemonHangman/NewCode/game.py",
+		"/E/Games/PokemonHangman/NewCode/finish.py",
+		"/E/Games/PokemonHangman/NewCode/levelshandler.py",
+		"/E/Games/PokemonHangman/NewCode/gamehandler.py",
+		"/E/Games/PokemonHangman/NewCode/data/Kalos.dat",
+		"/E/Games/PokemonHangman/NewCode/data/Kanto.dat",
+		"/E/Games/PokemonHangman/NewCode/gamegraphics.py",
 		"/E/Games/PokemonHangman/OldCode/game/data_cleaner.py",
 		"/E/Games/PokemonHangman/OldCode/data/raw_data.dat",
 		"/E/Games/PokemonHangman/NewCode/data/raw_data.dat",
 		"/E/Games/PokemonHangman/NewCode/data/pokemon_names.dat",
 		"/E/Games/PokemonHangman/NewCode/data/clean_data.dat",
-		"/E/Games/PokemonHangman/NewCode/gamehandler.py",
 		"/E/UB/Subjects/PDP/Assignments/PA1/SubmissionReady/Sequential/SLURM_PrimeGen_Sequential.sh",
 		"/E/UB/Subjects/PDP/Assignments/PA1/SubmissionReady/OpenMPI/SLURM_PrimeGen_MPI.sh",
 		"/E/UB/Subjects/PDP/Assignments/PA1/SubmissionReady/SSE/SLURM_PrimeGen_SSE.sh",
@@ -496,14 +512,8 @@
 		"/E/UB/Subjects/PDP/Assignments/PA1/FromCCR/Sequential/PrimeGen_Sequential.cpp",
 		"/E/UB/Subjects/PDP/Assignments/PA1/Solutions/SSE/Performace.csv",
 		"/E/UB/Subjects/PDP/Assignments/PA1/Solutions/SSE/Performace 1.csv",
-		"/E/Games/PokemonHangman/NewCode/game.py",
-		"/E/Games/PokemonHangman/NewCode/commonvariables.py",
-		"/E/Games/PokemonHangman/NewCode/pokemonhangman.py",
-		"/E/Games/PokemonHangman/NewCode/gamegraphics.py",
-		"/E/Games/PokemonHangman/OldCode/game/game_constants.py",
 		"/E/Games/PokemonHangman/NewCode/imagehandler.py",
 		"/E/Coursera/PythonProgramming/PA/Blackjack.py",
-		"/E/Games/PokemonHangman/NewCode/finish.py",
 		"/E/Games/PokemanHangman/NewCode/levelshandler.py",
 		"/E/UB/Career Plan/CoverLetter/Full-time/Zappos.txt",
 		"/E/UB/Career Plan/CoverLetter/Full-time/DataStax.txt",
@@ -597,9 +607,7 @@
 		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/smalltables/nation.dat",
 		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/MyProgress/test.sql",
 		"/E/UB/Subjects/DIC/Projects/Project-1/SubmissionReady/RealDirect/src/Example2page48.R",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/pi2.sql",
-		"/E/UB/Subjects/FPL/MiscellaneousMaterials/SMLPractice/classDemo.sml",
-		"/E/UB/Subjects/FPL/MiscellaneousMaterials/SMLPractice/practice2.sml"
+		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/pi2.sql"
 	],
 	"find":
 	{
@@ -617,6 +625,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ans",
 			"self.tried",
 			"16,",
 			"16,16",
@@ -681,183 +690,23 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "OldCode/game/game_constants.py",
-					"settings":
-					{
-						"buffer_size": 9451,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6291,
-								6397
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2301.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "NewCode/pokemonhangman.py",
 					"settings":
 					{
-						"buffer_size": 273,
+						"buffer_size": 386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14,
-								14
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "NewCode/commonvariables.py",
-					"settings":
-					{
-						"buffer_size": 493,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								477,
-								477
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "NewCode/gamegraphics.py",
-					"settings":
-					{
-						"buffer_size": 1168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29,
-								29
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "NewCode/gamehandler.py",
-					"settings":
-					{
-						"buffer_size": 1694,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								164,
-								164
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "NewCode/game.py",
-					"settings":
-					{
-						"buffer_size": 7716,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7639,
-								7639
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2346.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "NewCode/finish.py",
-					"settings":
-					{
-						"buffer_size": 3592,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2511,
-								2511
+								0,
+								0
 							]
 						],
 						"settings":
