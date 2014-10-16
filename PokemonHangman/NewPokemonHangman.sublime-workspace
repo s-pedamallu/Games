@@ -450,6 +450,22 @@
 				"buffer_size": 386,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "OldCode/game/exeGenerator.py",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "NewCode/exegenerator.py",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -480,6 +496,7 @@
 	},
 	"file_history":
 	[
+		"/E/Games/PokemonHangman/OldCode/exeFile/setup.py",
 		"/E/Games/PokemonHangman/OldCode/game/game_constants.py",
 		"/E/Games/PokemonHangman/NewCode/pokemonhangman.py",
 		"/E/Games/PokemonHangman/NewCode/acknowledgements.py",
@@ -606,8 +623,7 @@
 		"/C/Users/Shashank/Desktop/mysqlAns.csv",
 		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/smalltables/nation.dat",
 		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/MyProgress/test.sql",
-		"/E/UB/Subjects/DIC/Projects/Project-1/SubmissionReady/RealDirect/src/Example2page48.R",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/pi2.sql"
+		"/E/UB/Subjects/DIC/Projects/Project-1/SubmissionReady/RealDirect/src/Example2page48.R"
 	],
 	"find":
 	{
@@ -690,7 +706,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -707,6 +723,58 @@
 							[
 								0,
 								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "OldCode/game/exeGenerator.py",
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								92
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "NewCode/exegenerator.py",
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
 							]
 						],
 						"settings":
