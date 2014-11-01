@@ -444,27 +444,27 @@
 	"buffers":
 	[
 		{
-			"file": "NewCode/pokemonhangman.py",
+			"file": "/E/UB/Subjects/PDP/Assignments/PA2/Strategy2/SubmissionReady/OpenMP/SLURM_BucketSort_OMP.sh",
 			"settings":
 			{
-				"buffer_size": 386,
-				"line_ending": "Windows"
+				"buffer_size": 932,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "OldCode/game/exeGenerator.py",
+			"file": "/E/UB/Subjects/PDP/Assignments/PA2/Strategy2/SubmissionReady/OpenMPI/SLURM_BucketSort_MPI.sh",
 			"settings":
 			{
-				"buffer_size": 92,
-				"line_ending": "Windows"
+				"buffer_size": 898,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "NewCode/exegenerator.py",
+			"file": "/E/UB/Subjects/PDP/Assignments/PA2/Strategy2/SubmissionReady/Sequential/SLURM_BucketSort_Seq.sh",
 			"settings":
 			{
-				"buffer_size": 86,
-				"line_ending": "Windows"
+				"buffer_size": 927,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -496,9 +496,12 @@
 	},
 	"file_history":
 	[
+		"/E/Games/PokemonHangman/NewCode/exegenerator.py",
+		"/E/Games/PokemonHangman/NewCode/pokemonhangman.py",
+		"/E/Games/PokemonHangman/OldCode/game/exeGenerator.py",
+		"/E/Coursera/ProgrammingHandheldSytemsUsingAndroid/Fall2014_Offering/PAs/Lab4/permissionsLabSubmit/Dangerous/AndroidManifest.xml",
 		"/E/Games/PokemonHangman/OldCode/exeFile/setup.py",
 		"/E/Games/PokemonHangman/OldCode/game/game_constants.py",
-		"/E/Games/PokemonHangman/NewCode/pokemonhangman.py",
 		"/E/Games/PokemonHangman/NewCode/acknowledgements.py",
 		"/E/Games/PokemonHangman/NewCode/commonvariables.py",
 		"/E/Games/PokemonHangman/NewCode/welcome.py",
@@ -620,10 +623,7 @@
 		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/chkpt2Queries/tpch7.sql",
 		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/chkpt2Queries/tpch_schemas.sql",
 		"/E/UB/Subjects/DB/Project/Checkpoint2/tpch_queries/tpch10.sql",
-		"/C/Users/Shashank/Desktop/mysqlAns.csv",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/Checkpoint1/smalltables/nation.dat",
-		"/E/UB/Subjects/DB/Project/EclipseWorkspaceNew/MyProgress/test.sql",
-		"/E/UB/Subjects/DIC/Projects/Project-1/SubmissionReady/RealDirect/src/Example2page48.R"
+		"/C/Users/Shashank/Desktop/mysqlAns.csv"
 	],
 	"find":
 	{
@@ -706,28 +706,28 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "NewCode/pokemonhangman.py",
+					"file": "/E/UB/Subjects/PDP/Assignments/PA2/Strategy2/SubmissionReady/OpenMP/SLURM_BucketSort_OMP.sh",
 					"settings":
 					{
-						"buffer_size": 386,
+						"buffer_size": 932,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								133,
+								133
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -737,23 +737,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "OldCode/game/exeGenerator.py",
+					"file": "/E/UB/Subjects/PDP/Assignments/PA2/Strategy2/SubmissionReady/OpenMPI/SLURM_BucketSort_MPI.sh",
 					"settings":
 					{
-						"buffer_size": 92,
+						"buffer_size": 898,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								92
+								85,
+								85
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -763,23 +763,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "NewCode/exegenerator.py",
+					"file": "/E/UB/Subjects/PDP/Assignments/PA2/Strategy2/SubmissionReady/Sequential/SLURM_BucketSort_Seq.sh",
 					"settings":
 					{
-						"buffer_size": 86,
+						"buffer_size": 927,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								80,
-								80
+								133,
+								133
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

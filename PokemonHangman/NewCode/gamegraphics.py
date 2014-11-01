@@ -6,7 +6,9 @@ class GraphicsManager:
 	def display_text(self, canvas, text, rel_loc, size, color):
 		abs_loc = self.get_absolute_location(rel_loc)
 		pygame.font.init()
-		game_font = pygame.font.SysFont(game_font_name,size)
+		game_font = pygame.font.Font("FontFile/PokemonSolid.ttf", size)
+		#pygame.font.Font("FontFile/PokemonSolid.ttf", size)
+		#pygame.font.SysFont(game_font_name,size)
 		canvas.blit(game_font.render(text,True,color),abs_loc)
 
 	def get_absolute_location(self, relative_location):

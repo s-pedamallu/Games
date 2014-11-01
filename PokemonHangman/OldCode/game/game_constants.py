@@ -261,7 +261,7 @@ class GameManager:
 				self.refresh_background()
 
 	def refresh_background(self):
-		self.screen.fill((0,0,0))
+		self.screen.fill((255,255,255))
 		self.screen.blit(self.bg,self.bg_rect)
 		pygame.display.update()
 
