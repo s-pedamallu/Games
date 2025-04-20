@@ -52,7 +52,7 @@ class ScoreProperties:
 		self.label_loc = (2,95)
 		self.label_color = game_colors['black']
 		self.value_loc = (10,95)
-		self.value_color = game_colors['yellow']
+		self.value_color = game_colors['purple']
 		self.size = 25
 
 class TitleProperties:
@@ -89,7 +89,7 @@ class HintProperties:
 		self.label_size = 30
 		self. text_color = game_colors['orange']
 		self.label_color = game_colors['black']
-		self.value_color = game_colors['yellow']
+		self.value_color = game_colors['purple']
 
 class GameScreen:	
 	def __init__(self, properties):	
