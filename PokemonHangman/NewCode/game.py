@@ -71,9 +71,10 @@ class ForwardProperties:
 		self.types = pokemon_details.split()[4:]
 
 class ReturnValueProperties:
-	def __init__(self, before_score):
+	def __init__(self, before_score, hints):
 		self.score = before_score
 		self.pass_status = 0
+		self.remaining_hints = hints
 
 class HintProperties:
 	def __init__(self, h):
@@ -99,7 +100,7 @@ class GameScreen:
 		self.pokemon_name_properties = NameDisplayProperties(properties.pokemon_details)
 		self.attempted_letter_properties = AttemptedLettersProperties()
 		self.hint_properties = HintProperties(properties.hints)
-		self.return_value = ReturnValueProperties(properties.current_score)
+		self.return_value = ReturnValueProperties(properties.current_score, properties.hints)
 		self.score_properties = ScoreProperties(properties.current_score)
 		self.canvas = pygame.display.set_mode(SCREEN_SIZE,pygame.FULLSCREEN)
 		self.graphics = gamegraphics.GraphicsManager()
@@ -184,10 +185,11 @@ class GameScreen:
 
 	def evaluate_mouse_click(self, pos):
 		if (self.graphics.is_clicked_inside(pos, self.hint_properties.text_boundary[0],
-						self.hint_properties.text_boundary[1])):
+						self.hint_properties.text_boundary[1]) and self.hint_properties.value>0):
 			self.pokemon_image_properties.exposed = True
 			self.hint_properties.is_used = True
 			self.hint_properties.value -= 1
+			self.return_value.remaining_hints = self.hint_properties.value
 			self.score-=10
 			return 1
 

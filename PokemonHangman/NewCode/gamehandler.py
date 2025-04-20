@@ -38,8 +38,7 @@ class GameManager:
             game_props = GameProperties(self.level_properties, pokemon_details, pokemon_img, hidden_img, hints_available, score)
             game_screen = game.GameScreen(game_props)
             game_response = game_screen.play_on_game_screen()
-            if game_response.score < 10:
-                hints_available -= 1
+            hints_available = game_response.remaining_hints
             score = game_response.score
             is_game_ended = game_response.pass_status == 0
             idx += 1
