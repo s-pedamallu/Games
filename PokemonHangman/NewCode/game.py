@@ -197,11 +197,11 @@ class GameScreen:
 			return 0
 
 		# ignore if the key was already used
-		elif (str(unichr(key)) in self.attempted_letter_properties.value.lower()):
+		elif (str(chr(key)) in self.attempted_letter_properties.value.lower()):
 			return 0
 
 		# add the current pressed key into attempted letters
-		self.attempted_letter_properties.value += str(unichr(key))
+		self.attempted_letter_properties.value += str(chr(key))
 		self.attempted_letter_properties.value = self.attempted_letter_properties.value.upper()
 
 		has_changed = False

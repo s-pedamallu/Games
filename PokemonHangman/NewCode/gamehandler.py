@@ -3,9 +3,9 @@ import pygame
 import game
 
 class GameStatus:
-    def __init__(self, lp):
-        self.current_score = lp.total_score
-        self.proceed_forward = True
+    def __init__(self, score, is_level_finished):
+        self.current_score = score
+        self.proceed_forward = is_level_finished
 
 class GameProperties:
     def __init__(self, lp, pokemon_details, pokemon_img, hidden_img, hints, score):
@@ -20,7 +20,6 @@ class GameProperties:
 class GameManager:
     def __init__(self, lp):
         self.level_properties = lp
-        self.game_status = GameStatus(lp)
 
     """
     1. Keep track of the score, hints used, progress made in the level, etc
@@ -41,8 +40,8 @@ class GameManager:
             game_response = game_screen.play_on_game_screen()
             if game_response.score < 10:
                 hints_available -= 1
-            score += game_response.score
-            is_game_ended = game_response.pass_status > 0
+            score = game_response.score
+            is_game_ended = game_response.pass_status == 0
             idx += 1
         return GameStatus(score, not is_game_ended)
 
